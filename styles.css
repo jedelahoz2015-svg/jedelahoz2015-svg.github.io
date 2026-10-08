@@ -28,6 +28,7 @@
   --size-body: 1rem;
   --size-copy: 1.0625rem;
   --size-lead: 1.25rem;
+  --size-about-lead: 1.1875rem;
   --size-small: .875rem;
   --size-label: .75rem;
   --size-card-label: .6875rem;
@@ -75,6 +76,17 @@ h1, h2, h3 {
 .section-intro {
   font-size: var(--size-body);
   line-height: var(--leading-body);
+}
+
+.about-copy .lead {
+  font-size: var(--size-about-lead);
+  font-weight: var(--weight-body);
+  line-height: var(--leading-body);
+  letter-spacing: 0;
+}
+
+.about-copy .lead strong {
+  font-weight: var(--weight-medium);
 }
 
 .button,
@@ -164,5 +176,13 @@ h1, h2, h3 {
     --size-article-h2: 1.4375rem;
     --size-copy: 1rem;
     --size-lead: 1.125rem;
+    --size-about-lead: 1.125rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .about-copy .lead {
+    font-size: 1.0625rem;
+    text-wrap: pretty;
   }
 }
