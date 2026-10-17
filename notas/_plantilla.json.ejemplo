@@ -1,0 +1,23 @@
+{
+  "orden": 5,
+  "slug": "mi-nueva-nota",
+  "categoria": "BMC HELIX OPERATIONS MANAGEMENT",
+  "icono": "i-monitor",
+  "titulo": "Título de la nota",
+  "resumen": "Resumen corto: aparece en la tarjeta del índice y como descripción para buscadores.",
+  "extracto": "Texto de entrada que aparece bajo el título dentro de la nota.",
+  "secciones": [
+    {
+      "titulo": "Primer subtítulo",
+      "parrafos": ["Primer párrafo.", "Segundo párrafo."]
+    },
+    {
+      "titulo": "Sección con comandos (opcional)",
+      "parrafos": ["Texto previo al comando."],
+      "codigo": ["comando --opcion valor\notra-linea"]
+    }
+  ],
+  "referencias": [
+    { "texto": "Nombre del recurso", "url": "https://ejemplo.com/ruta" }
+  ]
+}

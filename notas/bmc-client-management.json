@@ -1,0 +1,92 @@
+{
+  "orden": 4,
+  "slug": "bmc-client-management",
+  "categoria": "BMC CLIENT MANAGEMENT",
+  "icono": "i-endpoint",
+  "titulo": "BMC Client Management: administración y gestión de equipos",
+  "resumen": "Administración de equipos, agentes y software mediante inventario, despliegues, MyApps, GPO, control remoto y gestión de licenciamiento.",
+  "extracto": "BMC Client Management permite centralizar la administración de equipos y software, facilitando actividades de inventario, distribución de aplicaciones, despliegues, configuración y soporte remoto.",
+  "secciones": [
+    {
+      "titulo": "Más que un inventario",
+      "parrafos": [
+        "BMC Client Management permite mantener una visión centralizada de los equipos administrados y de la información de hardware y software disponible en ellos. En la operación, esta información facilita el soporte, la administración de activos, la identificación del software instalado y el seguimiento del estado de los dispositivos.",
+        "Un inventario útil no se limita a registrar equipos: ayuda a responder qué dispositivo requiere atención, qué tiene instalado y con qué información se cuenta antes de intervenirlo."
+      ]
+    },
+    {
+      "titulo": "Administración de equipos y agentes",
+      "parrafos": [
+        "Desde la consola, la administración de equipos reúne datos del dispositivo, inventario de hardware y software, y el estado de los agentes de BMC Client Management. Revisar esa información permite orientar el diagnóstico y mantener visibilidad sobre los equipos gestionados.",
+        "Según la necesidad de soporte, también es posible ejecutar acciones remotas sobre los dispositivos. Verificar el estado del agente y el resultado de cada acción ayuda a dar seguimiento a la actividad sin perder el contexto del equipo intervenido."
+      ]
+    },
+    {
+      "titulo": "Despliegue y distribución de software",
+      "parrafos": [
+        "El despliegue de software permite distribuir paquetes y aplicaciones, realizar instalaciones o desinstalaciones remotas y ejecutar acciones sobre varios equipos. En la práctica, conviene definir los destinatarios, validar el paquete y seguir el estado de cada distribución.",
+        "Ese seguimiento aporta control sobre lo que se instaló y sobre los equipos que requieren revisión. También favorece una distribución más uniforme del software en el entorno administrado."
+      ]
+    },
+    {
+      "titulo": "MyApps",
+      "parrafos": [
+        "MyApps ofrece a los usuarios un punto de acceso a aplicaciones y acciones que TI ha puesto a su disposición. Publicar allí el software aprobado facilita la instalación según las necesidades del usuario y las políticas definidas para su equipo.",
+        "Este mecanismo complementa los despliegues administrados: permite ofrecer opciones de autoservicio sin perder la referencia de qué se ha habilitado y para quién."
+      ]
+    },
+    {
+      "titulo": "GPO y configuración de equipos",
+      "parrafos": [
+        "En la administración de equipos también es necesario considerar las GPO y otras configuraciones definidas para el entorno. Revisar que los parámetros esperados estén presentes en los dispositivos ayuda a detectar diferencias y a mantener una operación más estandarizada.",
+        "BMC Client Management aporta visibilidad y acciones de administración sobre los equipos; las GPO forman parte de las políticas de Windows que se deben tener en cuenta al diagnosticar o configurar un dispositivo."
+      ]
+    },
+    {
+      "titulo": "Control remoto y soporte",
+      "parrafos": [
+        "El control remoto permite atender a un usuario, observar el comportamiento del equipo, validar configuraciones y apoyar el diagnóstico de una incidencia. Cuando la actividad lo requiere y se cuenta con el acceso correspondiente, también permite ejecutar acciones de soporte directamente sobre el dispositivo.",
+        "Su valor está en conectar la información disponible en la consola con lo que ocurre en el equipo. Después de la intervención, comprobar el resultado y registrar lo realizado contribuye a un seguimiento claro del caso."
+      ]
+    },
+    {
+      "titulo": "Software y licenciamiento",
+      "parrafos": [
+        "El inventario de software ayuda a identificar productos instalados y los equipos que los utilizan. Al relacionar esa información con los registros de licencias y el uso de aplicaciones, es posible apoyar el seguimiento del consumo y detectar situaciones que necesitan revisión.",
+        "Esta visibilidad aporta a la administración de activos y a los procesos de cumplimiento. También ofrece mejores elementos para decidir sobre distribución, retiro o regularización de software."
+      ]
+    },
+    {
+      "titulo": "De la administración a la operación",
+      "parrafos": [
+        "BMC Client Management conecta la administración de los equipos con las necesidades diarias de soporte. El valor no está únicamente en conocer qué dispositivos existen, sino en poder actuar sobre ellos, distribuir software, revisar configuraciones, facilitar el soporte y mantener información útil para la gestión de activos y licenciamiento."
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Inventario en BMC Client Management",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Getting-started/Supported-features/Inventory-management/"
+    },
+    {
+      "texto": "Distribución de software en BMC Client Management",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Using/Distributing-software/"
+    },
+    {
+      "texto": "Publicación de acciones en MyApps",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Using/Applying-operational-rules/Advertising-an-Operational-Rule/"
+    },
+    {
+      "texto": "Administración remota de dispositivos",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Using/Managing-devices-remotely/"
+    },
+    {
+      "texto": "Gestión de aplicaciones y uso de licencias",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Using/Managing-applications/"
+    },
+    {
+      "texto": "Gestión de licencias de software",
+      "url": "https://docs.helixops.ai/bin/Automation-DevSecOps/Client-Management/BMC-Client-Management/bcm261/Using/Managing-applications/Managing-software-licenses/"
+    }
+  ]
+}
