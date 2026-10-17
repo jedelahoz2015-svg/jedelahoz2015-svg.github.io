@@ -3,7 +3,6 @@
 /* SOBRE MÍ */
 .about { display: grid; grid-template-columns: 1fr 1.25fr; gap: clamp(32px, 6vw, 80px); align-items: start; }
 .about__lead { display: grid; gap: 20px; font-size: 1.05rem; }
-.about__lead strong { color: var(--ink); font-weight: 600; }
 .about__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .about__grid li {
   padding: 22px;
