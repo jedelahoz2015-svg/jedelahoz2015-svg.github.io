@@ -1,0 +1,39 @@
+{
+  "orden": 1,
+  "slug": "cmdb-y-relaciones",
+  "categoria": "CMDB · DISCOVERY",
+  "icono": "i-cmdb",
+  "titulo": "CMDB: el valor está en las relaciones",
+  "resumen": "Una lista de activos ayuda. Entender cómo se conectan permite analizar mejor el impacto de un cambio o incidente.",
+  "extracto": "Una lista de activos ayuda. Entender cómo se conectan permite analizar mejor el impacto de un cambio o incidente.",
+  "secciones": [
+    {
+      "titulo": "Más que un inventario",
+      "parrafos": [
+        "Una CMDB reúne elementos de configuración, conocidos como CI, y las relaciones entre ellos. Un servidor, una aplicación y un servicio pueden aparecer como registros separados; la relación entre esos registros da contexto para entender qué depende de qué.",
+        "Cuando la información está organizada y se mantiene vigente, una consulta deja de ser solo “¿qué equipo falló?” y puede convertirse en “¿qué servicio podría verse afectado?”. La respuesta siempre depende de la calidad de los datos y de cómo se haya modelado el entorno."
+      ]
+    },
+    {
+      "titulo": "El papel de Discovery",
+      "parrafos": [
+        "Discovery ayuda a identificar componentes de infraestructura, software y dependencias. Esa información puede alimentar la visión de configuración, pero descubrir un elemento no sustituye la revisión de su contexto, su relación con el servicio y la vigencia de los datos.",
+        "Por eso conviene observar juntos inventario, relaciones y cambios. La utilidad de una CMDB no se mide por la cantidad de registros, sino por la claridad que aporta al análisis operativo."
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Modelo de datos común de BMC Helix CMDB",
+      "url": "https://docs.helixops.ai/bin/Service-Management/IT-Service-Management/BMC-Helix-CMDB/ac262/Managing-the-common-data-model/"
+    },
+    {
+      "texto": "Relaciones entre CI en BMC Helix CMDB",
+      "url": "https://docs.helixops.ai/bin/Service-Management/IT-Service-Management/BMC-Helix-CMDB/ac262/Using/Working-with-CIs-and-relationships/Adding-a-relationship-between-CIs/"
+    },
+    {
+      "texto": "Discovery y dependencias de infraestructura",
+      "url": "https://docs.helixops.ai/bin/IT-Operations-Management/Discovery/BMC-Helix-Discovery/DAAS/Using/Auditing-a-data-center/"
+    }
+  ]
+}

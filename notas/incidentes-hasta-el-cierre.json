@@ -1,0 +1,39 @@
+{
+  "orden": 3,
+  "slug": "incidentes-hasta-el-cierre",
+  "categoria": "GESTIÓN DE INCIDENTES Y ÓRDENES DE TRABAJO",
+  "icono": "i-incident",
+  "titulo": "Incidentes y órdenes de trabajo: seguimiento hasta el cierre",
+  "resumen": "Analizar, asignar y dar seguimiento a cada caso ayuda a validar el resultado antes de su cierre.",
+  "extracto": "Analizar, asignar y dar seguimiento a cada caso ayuda a validar el resultado antes de su cierre.",
+  "secciones": [
+    {
+      "titulo": "Una secuencia que deja trazabilidad",
+      "parrafos": [
+        "La gestión de un incidente comienza al describir qué ocurre, a quién afecta y desde cuándo. En una orden de trabajo, también conviene dejar claros el objetivo, el responsable y las actividades por realizar. Después vienen el análisis, la asignación, la ejecución o resolución y la actualización del caso. Registrar cada paso permite que otras personas comprendan lo que se comprobó y lo que sigue pendiente.",
+        "La prioridad y el alcance deben revisarse con la información disponible, no asumirse solo por el título de una alerta o por el primer reporte. Si aparecen nuevos datos, el seguimiento del incidente o de la orden de trabajo debe reflejarlos."
+      ]
+    },
+    {
+      "titulo": "Cerrar con evidencia",
+      "parrafos": [
+        "Una solución técnica o una actividad ejecutada no equivalen automáticamente a un cierre claro. Conviene registrar qué se hizo, comprobar el resultado y dejar constancia de la validación correspondiente antes de cerrar el incidente o la orden de trabajo.",
+        "Ese hábito mejora la continuidad del soporte: facilita las consultas posteriores, reduce ambigüedades y ayuda a distinguir un caso cerrado de uno que todavía necesita seguimiento."
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Gestión de incidentes en BMC Helix ITSM",
+      "url": "https://docs.helixops.ai/bin/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Getting-started/Learning-about-Incident-Management/"
+    },
+    {
+      "texto": "Finalización de solicitudes de incidente, documentación de BMC",
+      "url": "https://docs.helixops.ai/bin/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Closing-incident-requests/Completing-an-incident-request/"
+    },
+    {
+      "texto": "Creación de órdenes de trabajo, documentación de BMC",
+      "url": "https://docs.helixops.ai/bin/Service-Management/IT-Service-Management/BMC-Service-Request-Management/srm262/Managing-work-orders/Creating-work-orders/"
+    }
+  ]
+}

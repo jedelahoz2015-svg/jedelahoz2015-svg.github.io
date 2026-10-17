@@ -1,0 +1,39 @@
+{
+  "orden": 2,
+  "slug": "monitoreo-con-contexto",
+  "categoria": "BMC HELIX OPERATIONS MANAGEMENT",
+  "icono": "i-monitor",
+  "titulo": "Monitoreo: convertir eventos en contexto",
+  "resumen": "Una alerta indica que algo requiere atención. Relacionarla con un servicio ayuda a decidir qué revisar primero.",
+  "extracto": "Una alerta indica que algo requiere atención. Relacionarla con un servicio ayuda a decidir qué revisar primero.",
+  "secciones": [
+    {
+      "titulo": "La alerta es el punto de partida",
+      "parrafos": [
+        "Los eventos de monitoreo pueden incluir origen, ubicación, marca de tiempo y otros datos relevantes. Esos datos ayudan a identificar la señal, pero por sí solos no explican siempre su impacto en el servicio.",
+        "Al revisar una alerta conviene distinguir entre el componente que la generó, el servicio relacionado y la situación que perciben los usuarios. Ese contexto facilita priorizar el análisis y comunicar el estado con mayor claridad."
+      ]
+    },
+    {
+      "titulo": "Del componente al servicio",
+      "parrafos": [
+        "BMC Helix Operations Management permite trabajar con eventos y modelos de servicio; según la configuración del entorno, la información de salud del servicio puede reunir eventos, entidades afectadas e historial. La plataforma aporta visibilidad, mientras que la interpretación requiere validar el contexto operativo.",
+        "Una práctica útil es documentar qué se observó, qué se comprobó y cuál es el siguiente paso. Así, el monitoreo se conecta con el seguimiento del caso y no se queda en una alerta aislada."
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Monitoreo y gestión de eventos en BMC Helix Operations Management",
+      "url": "https://docs.helixops.ai/bin/view/IT-Operations-Management/Operations-Management/BMC-Helix-Operations-Management/bhom262/Monitoring-events-and-reducing-event-noise/Monitoring-and-managing-events/"
+    },
+    {
+      "texto": "Detalles de eventos en BMC Helix Operations Management",
+      "url": "https://docs.helixops.ai/bin/view/IT-Operations-Management/Operations-Management/BMC-Helix-Operations-Management/bhom262/Monitoring-events-and-reducing-event-noise/Monitoring-and-managing-events/Viewing-event-details/"
+    },
+    {
+      "texto": "Monitoreo de salud de servicios en BMC Helix AIOps",
+      "url": "https://docs.helixops.ai/bin/IT-Operations-Management/Operations-Management/BMC-Helix-AIOps/aiops262/Monitoring-services/Monitoring-service-health/"
+    }
+  ]
+}
