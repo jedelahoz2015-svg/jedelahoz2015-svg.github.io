@@ -97,22 +97,6 @@
 
     <!-- HERO -->
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <svg class="hero__net" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-        <g class="net-lines">
-          <path d="M880 120 L1010 230 L930 380 L1080 470"/>
-          <path d="M1010 230 L1130 140"/>
-          <path d="M930 380 L790 450 L850 488"/>
-          <path d="M790 450 L690 320 L720 180 L880 120"/>
-          <path d="M1080 470 L1000 492 L850 488"/>
-          <path d="M690 320 L690 440"/>
-        </g>
-        <g class="net-nodes">
-          <circle cx="880" cy="120" r="5"/><circle cx="1010" cy="230" r="7"/><circle cx="930" cy="380" r="4"/>
-          <circle cx="1080" cy="470" r="6"/><circle cx="1130" cy="140" r="4"/><circle cx="790" cy="450" r="6"/>
-          <circle cx="850" cy="488" r="4"/><circle cx="690" cy="320" r="5"/><circle cx="720" cy="180" r="4"/>
-          <circle cx="1000" cy="492" r="5"/><circle cx="690" cy="440" r="3.500"/>
-        </g>
-      </svg>
 
       <div class="container hero__grid">
         <div class="hero__copy">
@@ -129,13 +113,19 @@
         </div>
 
         <div class="hero__visual reveal">
+          <div class="orbit">
+          <svg class="hero__net" viewBox="0 0 500 500" aria-hidden="true" focusable="false">
+            <g class="net-lines"><path d="M126.7 73.9A215 215 0 0 1 279.9 37.1"/><path d="M279.9 37.1A215 215 0 0 1 414.7 111.8"/><path d="M414.7 111.8A215 215 0 0 1 462.9 279.9"/><path d="M382.4 419.4A215 215 0 0 1 212.7 461.7"/><path d="M212.7 461.7A215 215 0 0 1 63.8 357.5"/><path d="M63.8 357.5A215 215 0 0 1 48.0 176.5"/><path d="M48.0 176.5A215 215 0 0 1 169.5 50.7"/><path class="net-extra" d="M279.9 37.1L283.1 14.3"/><path class="net-extra" d="M462.9 279.9L485.7 283.1"/><path class="net-extra" d="M212.7 461.7L208.7 484.4"/><path class="net-extra" d="M48.0 176.5L26.4 168.6"/></g>
+            <g class="net-nodes"><circle cx="126.7" cy="73.9" r="5"/><circle cx="279.9" cy="37.1" r="4"/><circle cx="414.7" cy="111.8" r="4"/><circle cx="462.9" cy="279.9" r="5"/><circle cx="382.4" cy="419.4" r="4"/><circle cx="212.7" cy="461.7" r="4"/><circle cx="63.8" cy="357.5" r="5"/><circle cx="48.0" cy="176.5" r="4"/><circle cx="169.5" cy="50.7" r="4"/><circle class="net-extra" cx="283.1" cy="14.3" r="3"/><circle class="net-extra" cx="485.7" cy="283.1" r="3"/><circle class="net-extra" cx="208.7" cy="484.4" r="3"/><circle class="net-extra" cx="26.4" cy="168.6" r="3"/></g>
+          </svg>
           <div class="portrait">
             <span class="portrait__ring portrait__ring--1" aria-hidden="true"></span>
             <span class="portrait__ring portrait__ring--2" aria-hidden="true"></span>
             <img class="portrait__img" src="assets/jesus-de-la-hoz.jpg" width="293" height="470" alt="Retrato de Jesús De La Hoz con camisa blanca" fetchpriority="high">
-            <span class="portrait__tag portrait__tag--a">BMC</span>
-            <span class="portrait__tag portrait__tag--b">Monitoreo</span>
-            <span class="portrait__tag portrait__tag--c">CMDB</span>
+          </div>
+          <span class="orbit__tag orbit__tag--a" style="left:82.9%;top:22.4%">BMC</span>
+          <span class="orbit__tag orbit__tag--b" style="left:9.6%;top:35.3%">Monitoreo</span>
+          <span class="orbit__tag orbit__tag--c" style="left:42.5%;top:92.3%">CMDB</span>
           </div>
         </div>
       </div>
